@@ -1,0 +1,3 @@
+[submodule "pyo3"]
+	path = pyo3
+	url = git@github.com:psykopear/pyo3.git
