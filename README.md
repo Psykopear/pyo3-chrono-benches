@@ -7,7 +7,7 @@ This repo is used to benchmark two possible implementations of the PyO3-chrono i
 Clone this repository: 
 
 ```bash
-git clone <>
+git clone git@github.com:Psykopear/pyo3-chrono-benches.git
 ```
 
 Init the submodules:
