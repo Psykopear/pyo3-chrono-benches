@@ -1,0 +1,3 @@
+[workspace]
+
+members = [ "pyo3-pickfire", ]
