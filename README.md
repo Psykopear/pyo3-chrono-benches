@@ -18,8 +18,10 @@ git submodule update --init --recursive
 Benchmark the two different implementations:
 
 ```bash
-git co pyo3-pickfire
-cargo bench --bench bench_chrono_integration
-git co pyo3-psykopear
-cargo bench --bench bench_chrono_integration
+git checkout pickfire
+git submodule update
+cargo bench --manifest-path pyo3/Cargo.toml --bench bench_chrono_integration
+git checkout psykopear
+git submodule update
+cargo bench --manifest-path pyo3/Cargo.toml --bench bench_chrono_integration
 ```
